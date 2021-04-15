@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://image-uploader-web.vercel.app/">
+    <a href="https://image-uploaded-33694.web.app/">
       Demo
     </a>
     <span> | </span>
@@ -21,18 +21,13 @@
 
 <!-- OVERVIEW -->
 
-## Screenshots
-
-![screenshot](screenshots/image1.png)
-![screenshot](screenshots/image2.png)
-![screenshot](screenshots/image3.png)
 
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-- [React - Frontend](https://reactjs.org/)
-- [Express.js - Backend](https://expressjs.com/) 
-	- [this repository link](https://github.com/Kritsana135/image-uploader-api)
+- [Vye - Frontend](https://v3.vuejs.org/)
+- [Firebase - Backend](https://firebase.google.com/) 
+	
 
 ## How To Use
 
@@ -42,14 +37,10 @@ To clone and run this application, you'll need [Git](https://git-scm.com) and [N
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Kritsana135/image-uploader-web
+$ git clone https://github.com/Olivernha/Image-Uploader
 # Install dependencies
 $ npm install
 # Run the app
-$ npm start
+$ npm run serve
 ```
 
-## Contact
-
-- LinkedIn  [KRITSANA SENGYONG](https://www.linkedin.com/in/kritsana-sengyong)
-- GitHub [@Kritsana135](https://github.com/Kritsana135)
