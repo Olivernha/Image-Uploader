@@ -19,13 +19,12 @@
 .progress{
     width:30%;
     margin-left: 0;
-    animation: progressBar 2s ease-in-out running forwards infinite;
+    animation: progressBar 1s linear  forwards infinite;
 }
 @keyframes progressBar {
     0% {
         width: 0;
     }
-
     50% {
         width: 30%;
         margin-left: 40%;
