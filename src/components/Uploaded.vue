@@ -12,7 +12,7 @@ check_circle
         <span class="px-3 overflow-ellipsis text-xs overflow-hidden w-64 whitespace-nowrap" ref="myLink">https://firebasestorage.googleapis.com/v0/b/image-uploaded-33694.appspot.com/o/images%2F6017da3ed8f203fe979b16dae1ad2259.png?alt=media&token=ab158b7d-eec2-4410-97b4-244d63559f41</span>
         <button @click="copyLink" :class="[copyFinished ? 'bg-red-500' : 'bg-blue-500']"
                 class=" text-white w-20 text-xs py-2 rounded-md focus:outline-none">
-          {{ copyFinished ? 'Copy !' : 'Copy Link'}}
+          {{ copyFinished ? 'Copied !' : 'Copy Link'}}
         </button>
 
       </div>

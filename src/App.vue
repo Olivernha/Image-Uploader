@@ -4,7 +4,10 @@
     <Loading v-else-if="uploading"></Loading>
 
     <Uploaded v-else-if="uploaded" :link="link" ></Uploaded>
+
+    <p class="mt-8 text-black mx-auto px-4 md:px-0 text-center">Designed by devChallenges made with 💖‍ by <span class="font-bold text-indigo-600">Oliver</span></p>
   </div>
+
 </template>
 <script>
 import firebase from "firebase/app";
