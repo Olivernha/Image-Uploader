@@ -52,7 +52,7 @@ export default {
         contentType: 'image/jpeg'
       };
       var storageRef = firebase.storage().ref();
-// Upload file and metadata to the object 'images/mountains.jpg'
+// Upload file and metadata to the object 'images/*.jpg'
       var uploadTask = storageRef.child('images/' + file.name).put(file, metadata);
 // Listen for state changes, errors, and completion of the upload.
       uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
@@ -66,7 +66,6 @@ export default {
                 console.log('Upload is paused');
                 break;
               case firebase.storage.TaskState.RUNNING: // or 'running'
-
                 console.log('Upload is running');
                 break;
             }
